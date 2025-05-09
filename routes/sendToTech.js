@@ -45,7 +45,12 @@ Last Name: ${lastName}
 Email: ${email || "Not Provided"}
 Mobile: ${mobile}
 Address: ${address}
-Description: ${description}
+Description: 
+System Type: ${systemType}
+Brand: ${brand}
+Model: ${model}
+Notes: ${notes}
+${description}  
 Status: ${jobType}
 `;
 
